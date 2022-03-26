@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF0000",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle":"black",
+    "backgroundColorBottom": "#00ffff"
+
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/movie-0.jpg",
+      "selectedIconPath": "image/movie-1.jpg"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "书城",
+      "iconPath": "image/cinema-0.jpg",
+      "selectedIconPath": "image/cinema-1.jpg"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "image/find-0.jpg",
+      "selectedIconPath": "image/find-1.jpg" 
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "image/me-0.jpg",
+      "selectedIconPath": "image/me-1.jpg"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
